@@ -1,0 +1,18 @@
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.info {
+  display: none;
+  margin-bottom: 5px;
+  font-style: italic;
+  color: #666;
+}
+
+input:focus + .info {
+  display: block;
+}

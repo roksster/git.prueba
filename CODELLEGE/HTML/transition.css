@@ -1,0 +1,31 @@
+div{
+    width: 100px;
+    height: 100px;
+    background: rgb(141, 255, 255);
+    transition: 4s;
+    margin-top: 10px;
+}
+
+/*Especificar un efecto de transcicion con la misma de principio a fin*/
+.div1{
+    transition-timing-function: linear;
+}
+/*Inicio lento, luego rapido y eñ final es lento (predeterminado)*/
+.div2{
+    transition-timing-function: ease;
+}
+/*Lento pero solo el principio*/
+.div3{
+    transition-timing-function: ease-out;
+}
+
+.div4{
+    background: red;
+    transition: width 2s, height 2s, transform 4s;
+}
+
+div:hover{
+    width: 300px;
+    height: 300px;
+    transform: translate(50% 100%);
+}

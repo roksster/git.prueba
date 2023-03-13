@@ -1,0 +1,24 @@
+  header {
+    padding-top: ;
+  }
+
+  .menu{
+    position: right;
+  }
+
+  .padding-right {
+    padding-right: 40px;
+    font-size: 5px;
+  }
+
+  .padding-bottom {
+    padding-bottom: 60px;
+  }
+
+  .padding-left {
+    padding-left: 80px;
+  }
+
+  .padding-all {
+    padding: 10px;
+  }

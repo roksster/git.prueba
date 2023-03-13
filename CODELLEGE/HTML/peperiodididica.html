@@ -1,0 +1,1235 @@
+<!DOCTYPE html>
+<html>
+
+     <!-- Angel Emanuel Fraga Munoz -->
+	 <!-- Tabla Periodica -->
+	 <!-- 3H -->
+	 <!-- Israel Carreon -->
+<head>
+    <title> Tabla Periodica </title>
+	<meta charset="utf-8">
+	<style type"text/css">
+	div{
+    width: 100px;
+	height: 100px;
+	Border: dashed black 3px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+
+.atomico{
+	font-size: 15px;
+	line-height: 0px;
+}
+
+.simbolo{
+	font-size: 25px;
+	line-height: 0px;
+}
+
+.nombre{
+	font-size: 13px;
+	line-height: 0px;
+}
+
+.peso{
+	font-size: 10px;
+	line-height: 0px;
+}
+
+.gas{
+	background: #FF3C3C;
+	-webkit-transition-duration:0.9s;
+}
+
+.gas:hover{
+	background: #FF9B9B;
+	-webkit-transform:scale(1.2);
+}
+
+#eq1{
+    position: absolute;
+	top: 100px;left: 100px;
+}
+
+.alcalino{
+    background: #fb2;
+	-webkit-transition-duration:0.9s;
+}
+
+.alcalino:hover{
+     background: #fb7;
+	 -webkit-transform:scale(1.2);
+}
+
+.alcalinot{
+     background: #FFE367;
+	 -webkit-transition-duration:0.9s;
+}
+
+.alcalinot:hover{
+     background: #FFF1B2;
+	 -webkit-transform:scale(1.2);
+}
+
+.metales{
+    background: #FFF63F;
+	-webkit-transition-duration:0.9s;
+}
+
+.metales:hover{
+    background: #FCF78F;
+	-webkit-transform:scale(1.2);
+}
+
+.metaloides{
+     background: #7AFF33;
+	 -webkit-transition-duration:0.9s;
+}
+
+.metaloides:hover{
+     background: #C0FF9F;
+	 -webkit-transform:scale(1.2);
+}
+
+.ometales{
+    background: #34C1FF;
+	-webkit-transition-duration:0.9s;
+}
+
+.ometales:hover{
+    background: #9EE1FF;
+	-webkit-transform:scale(1.2);
+}
+	 
+.halogenos{
+    background: #FF4AF7;
+	-webkit-transition-duration:0.9s;
+}
+
+.halogenos:hover{
+    background: #FFAAFB;
+	-webkit-transform:scale(1.2);
+}
+	 
+.gasn{
+	background: #32FF42;
+	-webkit-transition-duration:0.9s;
+}
+
+.gasn:hover{
+	background: #A3FFAA;
+	-webkit-transform:scale(1.2);
+}
+	 
+	 
+	 
+#eq3{
+     position: absolute;
+	 top: 200px;left:100px;
+}
+
+#eq11{
+     position: absolute;
+	 top: 300px;left:100px;
+}
+
+#eq19{
+     position: absolute;
+	 top: 400px;left:100px;
+}
+
+#eq37{
+     position: absolute;
+	 top: 500px;left:100px;
+}
+
+#eq55{
+     position: absolute;
+	 top: 600px;left:100px;
+}
+
+#eq87{
+     position: absolute;
+	 top: 700px;left:100px;
+}
+
+#eq4{
+    position: absolute;
+	top: 200px;left: 200px;
+}
+
+#eq12{
+    position: absolute;
+	top: 300px;left: 200px;
+}
+
+#eq20{
+    position: absolute;
+	top: 400px;left: 200px;
+}
+
+#eq38{
+    position: absolute;
+	top: 500px;left: 200px;
+}
+
+#eq56{
+    position: absolute;
+	top: 600px;left: 200px;
+}
+
+#eq88{
+    position: absolute;
+	top: 700px;left: 200px;
+}
+
+#eq21{
+    position: absolute;
+	top: 400px;left: 300px;
+}
+
+#eq39{
+    position: absolute;
+	top: 500px;left: 300px;
+}
+
+#eq71{
+    position: absolute;
+	top: 600px;left: 300px;
+}
+
+#eq103{
+    position: absolute;
+	top: 700px;left: 300px;
+}
+
+#eq22{
+    position: absolute;
+	top: 400px;left: 400px;
+}
+
+#eq40{
+    position: absolute;
+	top: 500px;left: 400px;
+}
+
+#eq72{
+    position: absolute;
+	top: 600px;left: 400px;
+}
+
+#eq104{
+    position: absolute;
+	top: 700px;left: 400px;
+}
+
+#eq23{
+    position: absolute;
+	top: 400px;left: 500px;
+}
+
+#eq41{
+    position: absolute;
+	top: 500px;left: 500px;
+}
+
+#eq73{
+    position: absolute;
+	top: 600px;left: 500px;
+}
+
+#eq105{
+    position: absolute;
+	top: 700px;left: 500px;
+}
+
+#eq24{
+    position: absolute;
+	top: 400px;left: 600px;
+}
+
+#eq42{
+    position: absolute;
+	top: 500px;left: 600px;
+}
+
+#eq74{
+    position: absolute;
+	top: 600px;left: 600px;
+}
+
+#eq106{
+    position: absolute;
+	top: 700px;left: 600px;
+}
+
+#eq25{
+    position: absolute;
+	top: 400px;left: 700px;
+}
+
+#eq43{
+    position: absolute;
+	top: 500px;left: 700px;
+}
+
+#eq75{
+    position: absolute;
+	top: 600px;left: 700px;
+}
+
+#eq107{
+    position: absolute;
+	top: 700px;left: 700px;
+}
+
+#eq26{
+    position: absolute;
+	top: 400px;left: 800px;
+}
+
+#eq44{
+    position: absolute;
+	top: 500px;left: 800px;
+}
+
+#eq76{
+    position: absolute;
+	top: 600px;left: 800px;
+}
+
+#eq108{
+    position: absolute;
+	top: 700px;left: 800px;
+}
+
+#eq26{
+    position: absolute;
+	top: 400px;left: 800px;
+}
+
+#eq44{
+    position: absolute;
+	top: 500px;left: 800px;
+}
+
+#eq76{
+    position: absolute;
+	top: 600px;left: 800px;
+}
+
+#eq108{
+    position: absolute;
+	top: 700px;left: 800px;
+}
+
+#eq27{
+    position: absolute;
+	top: 400px;left: 900px;
+}
+
+#eq45{
+    position: absolute;
+	top: 500px;left: 900px;
+}
+
+#eq77{
+    position: absolute;
+	top: 600px;left: 900px;
+}
+
+#eq109{
+    position: absolute;
+	top: 700px;left: 900px;
+}
+
+#eq28{
+    position: absolute;
+	top: 400px;left: 1000px;
+}
+
+#eq46{
+    position: absolute;
+	top: 500px;left: 1000px;
+}
+
+#eq78{
+    position: absolute;
+	top: 600px;left: 1000px;
+}
+
+#eq110{
+    position: absolute;
+	top: 700px;left: 1000px;
+}
+
+#eq29{
+    position: absolute;
+	top: 400px;left: 1100px;
+}
+
+#eq47{
+    position: absolute;
+	top: 500px;left: 1100px;
+}
+
+#eq79{
+    position: absolute;
+	top: 600px;left: 1100px;
+}
+
+#eq111{
+    position: absolute;
+	top: 700px;left: 1100px;
+}
+
+#eq30{
+    position: absolute;
+	top: 400px;left: 1200px;
+}
+
+#eq48{
+    position: absolute;
+	top: 500px;left: 1200px;
+}
+
+#eq80{
+    position: absolute;
+	top: 600px;left: 1200px;
+}
+
+#eq112{
+    position: absolute;
+	top: 700px;left: 1200px;
+}
+
+#eq5{
+    position: absolute;
+	top: 200px;left: 1300px;
+}
+
+#eq13{
+    position: absolute;
+	top: 300px;left: 1300px;
+}
+
+#eq31{
+    position: absolute;
+	top: 400px;left: 1300px;
+}
+
+#eq49{
+    position: absolute;
+	top: 500px;left: 1300px;
+}
+
+#eq81{
+    position: absolute;
+	top: 600px;left: 1300px;
+}
+
+#eq113{
+    position: absolute;
+	top: 700px;left: 1300px;
+}
+
+#eq6{
+    position: absolute;
+	top: 200px;left: 1400px;
+}
+
+#eq14{
+    position: absolute;
+	top: 300px;left: 1400px;
+}
+
+#eq32{
+    position: absolute;
+	top: 400px;left: 1400px;
+}
+
+#eq50{
+    position: absolute;
+	top: 500px;left: 1400px;
+}
+
+#eq82{
+    position: absolute;
+	top: 600px;left: 1400px;
+}
+
+#eq114{
+    position: absolute;
+	top: 700px;left: 1400px;
+}
+
+#eq7{
+    position: absolute;
+	top: 200px;left: 1500px;
+}
+
+#eq15{
+    position: absolute;
+	top: 300px;left: 1500px;
+}
+
+#eq33{
+    position: absolute;
+	top: 400px;left: 1500px;
+}
+
+#eq51{
+    position: absolute;
+	top: 500px;left: 1500px;
+}
+
+#eq83{
+    position: absolute;
+	top: 600px;left: 1500px;
+}
+
+#eq115{
+    position: absolute;
+	top: 700px;left: 1500px;
+}
+
+#eq8{
+    position: absolute;
+	top: 200px;left: 1600px;
+}
+
+#eq16{
+    position: absolute;
+	top: 300px;left: 1600px;
+}
+
+#eq34{
+    position: absolute;
+	top: 400px;left: 1600px;
+}
+
+#eq52{
+    position: absolute;
+	top: 500px;left: 1600px;
+}
+
+#eq84{
+    position: absolute;
+	top: 600px;left: 1600px;
+}
+
+#eq116{
+    position: absolute;
+	top: 700px;left: 1600px;
+}
+
+#eq9{
+    position: absolute;
+	top: 200px;left: 1700px;
+}
+
+#eq17{
+    position: absolute;
+	top: 300px;left: 1700px;
+}
+
+#eq35{
+    position: absolute;
+	top: 400px;left: 1700px;
+}
+
+#eq53{
+    position: absolute;
+	top: 500px;left: 1700px;
+}
+
+#eq85{
+    position: absolute;
+	top: 600px;left: 1700px;
+}
+
+#eq117{
+    position: absolute;
+	top: 700px;left: 1700px;
+}
+
+#eq2{
+    position: absolute;
+	top: 100px;left: 1800px;
+}
+
+#eq10{
+    position: absolute;
+	top: 200px;left: 1800px;
+}
+
+#eq18{
+    position: absolute;
+	top: 300px;left: 1800px;
+}
+
+#eq36{
+    position: absolute;
+	top: 400px;left: 1800px;
+}
+
+#eq54{
+    position: absolute;
+	top: 500px;left: 1800px;
+}
+
+#eq86{
+    position: absolute;
+	top: 600px;left: 1800px;
+}
+
+#eq118{
+    position: absolute;
+	top: 700px;left: 1800px;
+}
+
+</style>
+</head>
+
+
+<body bgcolor="lightblue">
+
+<h1><center><font color="blue"> Tabla Periodica de los Elementos </h1></center></font>
+
+    <div class="gas" id="eq1">
+	     <p class="atomico">1</p>
+		 <p class="simbolo">H</p>
+		 <p class="nombre">Hidrogeno</p>
+		 <p class="peso">1.00</p>
+	</div>
+	
+	<div class="alcalino" id="eq3">
+	     <p class="atomico">3</p>
+		 <p class="simbolo">Li</p>
+		 <p class="nombre">Litio</p>
+		 <p class="peso">6.94</p>
+	</div>
+	
+	<div class="alcalino" id="eq11">
+	     <p class="atomico">11</p>
+		 <p class="simbolo">Na</p>
+		 <p class="nombre">Sodio</p>
+		 <p class="peso">22.98</p>
+	</div>
+	
+	<div class="alcalino" id="eq19">
+	     <p class="atomico">19</p>
+		 <p class="simbolo">K</p>
+		 <p class="nombre">Potasio</p>
+		 <p class="peso">19</p>
+	</div>
+	
+	<div class="alcalino" id="eq37">
+	     <p class="atomico">37</p>
+		 <p class="simbolo">Rb</p>
+		 <p class="nombre">Rubidio</p>
+		 <p class="peso">85.46</p>
+	</div>
+	
+	<div class="alcalino" id="eq55">
+	     <p class="atomico">55</p>
+		 <p class="simbolo">Cs</p>
+		 <p class="nombre">Cesio</p>
+		 <p class="peso">132.90</p>
+	</div>
+	
+	<div class="alcalino" id="eq87">
+	     <p class="atomico">87</p>
+		 <p class="simbolo">Fr</p>
+		 <p class="nombre">Francio</p>
+		 <p class="peso">380</p>
+	</div>
+	
+	    <div class="alcalinot" id="eq4">
+	     <p class="atomico">4</p>
+		 <p class="simbolo">B</p>
+		 <p class="nombre">Berilio</p>
+		 <p class="peso">9.01</p>
+	</div>
+
+        <div class="alcalinot" id="eq12">
+	     <p class="atomico">12</p>
+		 <p class="simbolo">Mg</p>
+		 <p class="nombre">Magnesio</p>
+		 <p class="peso">24.30</p>
+	</div>
+
+
+        <div class="alcalinot" id="eq20">
+	     <p class="atomico">20</p>
+		 <p class="simbolo">Ca</p>
+		 <p class="nombre">Calcio</p>
+		 <p class="peso">40.07</p>
+	</div>
+
+
+        <div class="alcalinot" id="eq38">
+	     <p class="atomico">38</p>
+		 <p class="simbolo">Sr</p>
+		 <p class="nombre">Estroncio</p>
+		 <p class="peso">87.67</p>
+	</div>
+
+        <div class="alcalinot" id="eq56">
+	     <p class="atomico">56</p>
+		 <p class="simbolo">Ba</p>
+		 <p class="nombre">Bario</p>
+		 <p class="peso">137.32</p>
+	</div>
+
+        <div class="alcalinot" id="eq88">
+	     <p class="atomico">88</p>
+		 <p class="simbolo">Ra</p>
+		 <p class="nombre">Radio</p>
+		 <p class="peso">509.3</p>
+	</div>
+	
+	  <div class="metales" id="eq21">
+	     <p class="atomico">21</p>
+		 <p class="simbolo">Sc</p>
+		 <p class="nombre">Escandio</p>
+		 <p class="peso">44.95</p>
+	</div>
+
+    <div class="metales" id="eq39">
+	     <p class="atomico">39</p>
+		 <p class="simbolo">Y</p>
+		 <p class="nombre">Itrio</p>
+		 <p class="peso">88.90</p>
+	</div>
+
+    <div class="metales" id="eq71">
+	     <p class="atomico">71</p>
+		 <p class="simbolo">Lu</p>
+		 <p class="nombre">Lutecio</p>
+		 <p class="peso">174.96</p>
+	</div>
+
+
+    <div class="metales" id="eq103">
+	     <p class="atomico">103</p>
+		 <p class="simbolo">Lr</p>
+		 <p class="nombre">Laurencio</p>
+		 <p class="peso">470</p>
+	</div>
+
+       <div class="metales" id="eq22">
+	     <p class="atomico">22</p>
+		 <p class="simbolo">Ti</p>
+		 <p class="nombre">Titanio</p>
+		 <p class="peso">47.86</p>
+	</div>
+	
+	       <div class="metales" id="eq40">
+	     <p class="atomico">40</p>
+		 <p class="simbolo">Zr</p>
+		 <p class="nombre">Zirconio</p>
+		 <p class="peso">91.22</p>
+	</div>
+	
+	       <div class="metales" id="eq72">
+	     <p class="atomico">72</p>
+		 <p class="simbolo">Hf</p>
+		 <p class="nombre">Hafnio</p>
+		 <p class="peso">178.49</p>
+	</div>
+	
+	       <div class="metales" id="eq104">
+	     <p class="atomico">104</p>
+		 <p class="simbolo">Rf</p>
+		 <p class="nombre">Rutherfordio</p>
+		 <p class="peso">261</p>
+	</div>
+
+   <div class="metales" id="eq23">
+	     <p class="atomico">23</p>
+		 <p class="simbolo">V</p>
+		 <p class="nombre">Vanadio</p>
+		 <p class="peso">50.94</p>
+	</div>
+	
+   <div class="metales" id="eq41">
+	     <p class="atomico">41</p>
+		 <p class="simbolo">Nb</p>
+		 <p class="nombre">Niobio</p>
+		 <p class="peso">92.90</p>
+	</div>
+	
+   <div class="metales" id="eq73">
+	     <p class="atomico">73</p>
+		 <p class="simbolo">Ta</p>
+		 <p class="nombre">Tantalio</p>
+		 <p class="peso">180.94</p>
+	</div>
+	
+   <div class="metales" id="eq105">
+	     <p class="atomico">105</p>
+		 <p class="simbolo">Db</p>
+		 <p class="nombre">Dubnio</p>
+		 <p class="peso">262</p>
+	</div>
+	
+   <div class="metales" id="eq24">
+	     <p class="atomico">24</p>
+		 <p class="simbolo">Cr</p>
+		 <p class="nombre">Cromo</p>
+		 <p class="peso">51.99</p>
+	</div>
+	
+   <div class="metales" id="eq42">
+	     <p class="atomico">42</p>
+		 <p class="simbolo">Mo</p>
+		 <p class="nombre">Molibdeno</p>
+		 <p class="peso">95.96</p>
+	</div>
+	
+   <div class="metales" id="eq74">
+	     <p class="atomico">74</p>
+		 <p class="simbolo">W</p>
+		 <p class="nombre">Wolframio</p>
+		 <p class="peso">183.84</p>
+	</div>
+	
+   <div class="metales" id="eq106">
+	     <p class="atomico">106</p>
+		 <p class="simbolo">Sg</p>
+		 <p class="nombre">Seaborgio</p>
+		 <p class="peso">266</p>
+	</div>
+		 
+    <div class="metales" id="eq25">
+	     <p class="atomico">25</p>
+		 <p class="simbolo">Mn</p>
+		 <p class="nombre">Manganeso</p>
+		 <p class="peso">54.93</p>
+	</div>
+	
+    <div class="metales" id="eq43">
+	     <p class="atomico">43</p>
+		 <p class="simbolo">Tc</p>
+		 <p class="nombre">Tecnesio</p>
+		 <p class="peso">98</p>
+	</div>
+	
+    <div class="metales" id="eq75">
+	     <p class="atomico">75</p>
+		 <p class="simbolo">Re</p>
+		 <p class="nombre">Renio</p>
+		 <p class="peso">264</p>
+	</div>
+	
+    <div class="metales" id="eq107">
+	     <p class="atomico">107</p>
+		 <p class="simbolo">Bh</p>
+		 <p class="nombre">Bohrio</p>
+		 <p class="peso">264</p>
+	</div>
+	
+   <div class="metales" id="eq26">
+	     <p class="atomico">26</p>
+		 <p class="simbolo">Fe</p>
+		 <p class="nombre">Hierro</p>
+		 <p class="peso">55.84</p>
+	</div>
+	
+   <div class="metales" id="eq44">
+	     <p class="atomico">44</p>
+		 <p class="simbolo">Ru</p>
+		 <p class="nombre">Rutenio</p>
+		 <p class="peso">101.07</p>
+	</div>
+	
+   <div class="metales" id="eq76">
+	     <p class="atomico">76</p>
+		 <p class="simbolo">Os</p>
+		 <p class="nombre">Osmio</p>
+		 <p class="peso">190.23</p>
+	</div>
+	
+   <div class="metales" id="eq108">
+	     <p class="atomico">108</p>
+		 <p class="simbolo">Hs</p>
+		 <p class="nombre">Hassio</p>
+		 <p class="peso">277</p>
+	</div>
+	
+  <div class="metales" id="eq27">
+	     <p class="atomico">27</p>
+		 <p class="simbolo">Co</p>
+		 <p class="nombre">Cobalto</p>
+		 <p class="peso">58.93</p>
+	</div>
+	
+  <div class="metales" id="eq45">
+	     <p class="atomico">45</p>
+		 <p class="simbolo">Rh</p>
+		 <p class="nombre">Rodio</p>
+		 <p class="peso">102.90</p>
+	</div>
+	
+  <div class="metales" id="eq77">
+	     <p class="atomico">77</p>
+		 <p class="simbolo">Ir</p>
+		 <p class="nombre">Iridio</p>
+		 <p class="peso">192.21</p>
+	</div>
+	
+  <div class="metales" id="eq109">
+	     <p class="atomico">109</p>
+		 <p class="simbolo">Mt</p>
+		 <p class="nombre">Meitnerio</p>
+		 <p class="peso">268</p>
+	</div>
+	
+	<div class="metales" id="eq28">
+	     <p class="atomico">28</p>
+		 <p class="simbolo">Ni</p>
+		 <p class="nombre">Niquel</p>
+		 <p class="peso">58.69</p>
+	</div>
+	
+	<div class="metales" id="eq46">
+	     <p class="atomico">46</p>
+		 <p class="simbolo">Pd</p>
+		 <p class="nombre">Paladio</p>
+		 <p class="peso">106.42</p>
+	</div>
+	
+	<div class="metales" id="eq78">
+	     <p class="atomico">78</p>
+		 <p class="simbolo">Pt</p>
+		 <p class="nombre">Platino</p>
+		 <p class="peso">195.08</p>
+	</div>
+	
+	<div class="metales" id="eq110">
+	     <p class="atomico">110</p>
+		 <p class="simbolo">Ds</p>
+		 <p class="nombre">Darmstatio</p>
+		 <p class="peso">271</p>
+	</div>
+	
+	 <div class="metales" id="eq29">
+	     <p class="atomico">29</p>
+		 <p class="simbolo">Cu</p>
+		 <p class="nombre">Cobre</p>
+		 <p class="peso">63.54</p>
+	</div>
+	
+	<div class="metales" id="eq47">
+	     <p class="atomico">47</p>
+		 <p class="simbolo">Ag</p>
+		 <p class="nombre">Plata</p>
+		 <p class="peso">107.68</p>
+	</div>
+	
+	<div class="metales" id="eq79">
+	     <p class="atomico">79</p>
+		 <p class="simbolo">Au</p>
+		 <p class="nombre">Oro</p>
+		 <p class="peso">196.96</p>
+	</div>
+	
+	<div class="metales" id="eq111">
+	     <p class="atomico">111</p>
+		 <p class="simbolo">Rg</p>
+		 <p class="nombre">Roentgenio</p>
+		 <p class="peso">272</p>
+	</div>
+	
+	<div class="metales" id="eq30">
+	     <p class="atomico">30</p>
+		 <p class="simbolo">Zn</p>
+		 <p class="nombre">Zinc</p>
+		 <p class="peso">65.38</p>
+	</div>
+	
+	<div class="metales" id="eq48">
+	     <p class="atomico">48</p>
+		 <p class="simbolo">Cd</p>
+		 <p class="nombre">Cadmio</p>
+		 <p class="peso">112.44</p>
+	</div>
+	
+	<div class="metales" id="eq80">
+	     <p class="atomico">80</p>
+		 <p class="simbolo">Hg</p>
+		 <p class="nombre">Mercurio</p>
+		 <p class="peso">200.59</p>
+	</div>
+	
+	<div class="metales" id="eq112">
+	     <p class="atomico">112</p>
+		 <p class="simbolo">Cn</p>
+		 <p class="nombre">Copernicio</p>
+		 <p class="peso">285</p>
+	</div>
+	
+	<div class="metaloides" id="eq5">
+	     <p class="atomico">5</p>
+		 <p class="simbolo">B</p>
+		 <p class="nombre">B</p>
+		 <p class="peso">10.81</p>
+	</div>
+	
+	<div class="ometales" id="eq13">
+	     <p class="atomico">13</p>
+		 <p class="simbolo">Al</p>
+		 <p class="nombre">Aluminio</p>
+		 <p class="peso">26.98</p>
+	</div>
+	
+	<div class="ometales" id="eq31">
+	     <p class="atomico">31</p>
+		 <p class="simbolo">Ga</p>
+		 <p class="nombre">Galio</p>
+		 <p class="peso">69.72</p>
+	</div>
+	
+	<div class="ometales" id="eq49">
+	     <p class="atomico">49</p>
+		 <p class="simbolo">In</p>
+		 <p class="nombre">Indio</p>
+		 <p class="peso">114.81</p>
+	</div>
+	
+	<div class="ometales" id="eq81">
+	     <p class="atomico">81</p>
+		 <p class="simbolo">Tl</p>
+		 <p class="nombre">Talio</p>
+		 <p class="peso">204.38</p>
+	</div>
+	
+	<div class="ometales" id="eq113">
+	     <p class="atomico">113</p>
+		 <p class="simbolo">Nh</p>
+		 <p class="nombre">Nihonio</p>
+		 <p class="peso">284</p>
+	</div>
+	
+	<div class="gas" id="eq6">
+	     <p class="atomico">6</p>
+		 <p class="simbolo">C</p>
+		 <p class="nombre">Carbono</p>
+		 <p class="peso">12.01</p>
+	</div>
+	
+	<div class="metaloides" id="eq14">
+	     <p class="atomico">14</p>
+		 <p class="simbolo">Si</p>
+		 <p class="nombre">Silicio</p>
+		 <p class="peso">28.08</p>
+	</div>
+
+     <div class="metaloides" id="eq32">
+	     <p class="atomico">32</p>
+		 <p class="simbolo">Ge</p>
+		 <p class="nombre">Germanio</p>
+		 <p class="peso">72.64</p>
+	</div>
+	
+	<div class="ometales" id="eq50">
+	     <p class="atomico">50</p>
+		 <p class="simbolo">Sn</p>
+		 <p class="nombre">Estano</p>
+		 <p class="peso">118.71</p>
+	</div>
+	
+	<div class="ometales" id="eq82">
+	     <p class="atomico">82</p>
+		 <p class="simbolo">Pb</p>
+		 <p class="nombre">Plomo</p>
+		 <p class="peso">207.2</p>
+	</div>
+	
+	<div class="ometales" id="eq114">
+	     <p class="atomico">114</p>
+		 <p class="simbolo">Fl</p>
+		 <p class="nombre">Flerovio</p>
+		 <p class="peso">289</p>
+	</div>
+
+	<div class="gas" id="eq7">
+	     <p class="atomico">7</p>
+		 <p class="simbolo">N</p>
+		 <p class="nombre">Nitrogeno</p>
+		 <p class="peso">14.00</p>
+	</div>
+	
+	<div class="gas" id="eq15">
+	     <p class="atomico">15</p>
+		 <p class="simbolo">P</p>
+		 <p class="nombre">Fosforo</p>
+		 <p class="peso">30.97</p>
+	</div>
+	
+	<div class="metaloides" id="eq33">
+	     <p class="atomico">33</p>
+		 <p class="simbolo">As</p>
+		 <p class="nombre">Arsenico</p>
+		 <p class="peso">74.92</p>
+	</div>
+	
+	<div class="metaloides" id="eq51">
+	     <p class="atomico">51</p>
+		 <p class="simbolo">Sb</p>
+		 <p class="nombre">Antimono</p>
+		 <p class="peso">121.76</p>
+	</div>
+	
+	<div class="ometales" id="eq83">
+	     <p class="atomico">83</p>
+		 <p class="simbolo">Bi</p>
+		 <p class="nombre">Bismuto</p>
+		 <p class="peso">208.98</p>
+	</div>
+	
+	<div class="ometales" id="eq115">
+	     <p class="atomico">115</p>
+		 <p class="simbolo">Mc</p>
+		 <p class="nombre">Moscovio</p>
+		 <p class="peso">288</p>
+	</div>
+	
+	<div class="gas" id="eq8">
+	     <p class="atomico">8</p>
+		 <p class="simbolo">O</p>
+		 <p class="nombre">Oxigeno</p>
+		 <p class="peso">15.99</p>
+	</div>
+	
+	<div class="gas" id="eq16">
+	     <p class="atomico">16</p>
+		 <p class="simbolo">S</p>
+		 <p class="nombre">Azufre</p>
+		 <p class="peso">32.06</p>
+	</div>
+	
+	<div class="gas" id="eq34">
+	     <p class="atomico">34</p>
+		 <p class="simbolo">Se</p>
+		 <p class="nombre">Selenio</p>
+		 <p class="peso">78.96</p>
+	</div>
+	
+	<div class="metaloides" id="eq52">
+	     <p class="atomico">52</p>
+		 <p class="simbolo">Te</p>
+		 <p class="nombre">Telurio</p>
+		 <p class="peso">127.60</p>
+	</div>
+	
+	<div class="metaloides" id="eq84">
+	     <p class="atomico">84</p>
+		 <p class="simbolo">Po</p>
+		 <p class="nombre">Polonio</p>
+		 <p class="peso">210</p>
+	</div>
+	
+	<div class="ometales" id="eq116">
+	     <p class="atomico">116</p>
+		 <p class="simbolo">Lv</p>
+		 <p class="nombre">Livermonio</p>
+		 <p class="peso">292</p>
+	</div>
+	
+	<div class="halogenos" id="eq9"
+	     <p class="atomico">9</p>
+		 <p class="simbolo">F</p>
+		 <p class="nombre">Fluor</p>
+		 <p class="peso">18.99</p>
+	</div>
+	
+	<div class="halogenos" id="eq17">
+	     <p class="atomico">17</p>
+		 <p class="simbolo">Cl</p>
+		 <p class="nombre">Cloro</p>
+		 <p class="peso">35.45</p>
+	</div>
+	
+	<div class="halogenos" id="eq35">
+	     <p class="atomico">35</p>
+		 <p class="simbolo">Br</p>
+		 <p class="nombre">Bromo</p>
+		 <p class="peso">79.90</p>
+	</div>
+	
+	<div class="halogenos" id="eq53">
+	     <p class="atomico">53</p>
+		 <p class="simbolo">I</p>
+		 <p class="nombre">Yodo</p>
+		 <p class="peso">126.90</p>
+	</div>
+	
+	<div class="halogenos" id="eq85">
+	     <p class="atomico">85</p>
+		 <p class="simbolo">At</p>
+		 <p class="nombre">Astato</p>
+		 <p class="peso">210</p>
+	</div>
+	
+	<div class="halogenos" id="eq117">
+	     <p class="atomico">117</p>
+		 <p class="simbolo">Ts</p>
+		 <p class="nombre">Teneso</p>
+		 <p class="peso">294</p>
+	</div>
+	
+	<div class="gasn" id="eq2">
+	     <p class="atomico">2</p>
+		 <p class="simbolo">He</p>
+		 <p class="nombre">Helio</p>
+		 <p class="peso">4.00</p>
+	</div>
+	
+	<div class="gasn" id="eq10">
+	     <p class="atomico">10</p>
+		 <p class="simbolo">Ne</p>
+		 <p class="nombre">Neon</p>
+		 <p class="peso">20.17</p>
+	</div>
+	
+	<div class="gasn" id="eq18">
+	     <p class="atomico">18</p>
+		 <p class="simbolo">Ar</p>
+		 <p class="nombre">Argon</p>
+		 <p class="peso">39.94</p>
+	</div>
+	
+	<div class="gasn" id="eq36">
+	     <p class="atomico">36</p>
+		 <p class="simbolo">Kr</p>
+		 <p class="nombre">Kripton</p>
+		 <p class="peso">83.79</p>
+	</div>
+	
+	<div class="gasn" id="eq54">
+	     <p class="atomico">54</p>
+		 <p class="simbolo">Xe</p>
+		 <p class="nombre">Xenon</p>
+		 <p class="peso">131.29</p>
+	</div>
+	
+	<div class="gasn" id="eq86">
+	     <p class="atomico">86</p>
+		 <p class="simbolo">Rn</p>
+		 <p class="nombre">Radon</p>
+		 <p class="peso">220</p>
+	</div>
+	
+	<div class="gasn" id="eq118">
+	     <p class="atomico">118</p>
+		 <p class="simbolo">Og</p>
+		 <p class="nombre">Oganeson</p>
+		 <p class="peso">294</p>
+	</div>
+	
+</body>
+</html>

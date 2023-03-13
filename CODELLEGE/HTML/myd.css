@@ -1,0 +1,25 @@
+img{
+    position: left;
+    margin: 1px;
+    border: 1px;
+    position: ;
+}
+
+.nombre{
+
+    background: green;
+    color: white;
+    font-size: larger;
+    position: center;
+    width: ;
+}
+
+.vida{
+    background: red;
+    color: white;
+    position: center;
+}
+
+.header{
+    align-items: center;
+}

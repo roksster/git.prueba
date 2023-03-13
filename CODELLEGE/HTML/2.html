@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>Ejemplo de Applet con Java</h1></center>
+    <br>
+    <p>Un <b>applet</b> conforme a lo que encontramos en las páginas de Oracle: "es una aplicación hecha en Java que se llama desde un documento <i>HTML</i> y se ejecuta dentro de un navegadir". Es necesario recordar que el navegador debe tener instalado el plugin de la Maquina Virtual de Java (JVM).<br><br>
+    
+    <i>Maquina Virtual de Java. </i>Es el programa que se encarga de ejecutar el bytecode generado por el compilador de Java. <br><br>
+
+    Para entender la forma en que se manejan los <b>applets</b> vamos a ver un ejemplo que presenta el clásico <mark>HOLA MUNDO:</mark></mark> <br><br>
+    <center>import java.awt.Graphics; <br>
+    import java.swing.JApplet {<br>
+    public void paint(Graphics g) {<br>
+        super.paint(g);<br>
+    g.drawString("Hola mundo!!",10,20); <br>
+          } <br>
+        }</center><br>
+    
+    
+        Como puede observarse la única variable que utiliza ete applet es g que representa un objeto de la case <i> Graphics</i> sobre el cual vamos a dibujar la cadena de texto que resulta de ejecutar el apple. <br> <br>
+    
+    Para ejecutarlo es necesario mandarlo llamar desde una página HTML utilizando la etiqueta <appler> o la etiqueta <object>. En el primer caso el archivo «class se declara en el atributo code, <b> en el
+    segundo se declara un elemento para donde sus atributos name será code y value será el nombre del applet Cabe mencionar que en el segundo caso es necesario declarar otros elementos
+    úparam adicionales y en elemento object declarar algunos parámetros como clossid, codebase y type. </b>  En ambos casos es necesario declarar el tamaño dela ventana del applet con los
+    
+    Parámetros <i> width y height.</i> <br> <br>
+    <br>
+    La  <b> salida del programa ser </b> Hola mundo!! <br> <br>
+    
+    Todos sabemos que este es un ejemplo muy sencillo y lo habremos viso ya bastantes veces, probablemente cuando Dennis N-Rirchi lo escribió en lenguaje C, jamás imaginó que seíautlizado
+    como ejemplo inicial de tantos lenguajes de programación.</p>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,22 @@
+body{
+    font-size: 13px;
+    text-align: justify;
+    margin: 50px;
+    background-color: rgb(255, 169, 255);
+}
+
+.todo{
+    background: rgb(255, 200, 119);
+}
+
+.padding{
+    background-color: aquamarine;
+    display: inline-block;
+    
+
+}
+
+.contenido {
+    border: 3px solid black;
+    padding: 20px;
+}

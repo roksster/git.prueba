@@ -1,0 +1,72 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    /*
+    font-size:1em; Relativa al tamaño de fuente que tenga su elemento padre o el elemento más cercano
+    font-size: 25%;
+    */
+    padding-left: 10% ;
+    text-align: justify;
+    padding-right: 10%;
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(168, 138, 196);
+    color: aliceblue;
+}
+
+h2{
+    color: aqua;
+}
+
+em{
+    color: orange;
+}
+
+em.termino{
+    font-weight: bold;
+}  
+
+img{
+    padding: 15px;
+    border-style: ridge;
+}
+
+em.propiedad{
+    color: darkred;
+    font-weight: bold;
+    font-style: normal;
+}
+
+em.valor{
+    border-style: dotted;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-width: thin;
+}
+
+p.inicial::first-letter{
+    color: orange;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+dt.conceptos{
+    color: rgb(0, 0, 165);
+    font-weight: bold;
+}
+
+div.figura{
+    text-align: center;
+}
+
+figcaption{
+    color: blue;
+}
+
+p#TextoDescripcion7{
+    font-style: italic;
+    background-color: lightgrey;
+}
+

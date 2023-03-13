@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body{
+    background: #4A465B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.contenedor{
+    width: 1000px;
+    margin: 15px auto;
+    overflow: hidden;
+}
+
+header{
+    background: white;
+
+}
+
+header nav{
+    width: 100%;
+    overflow: hidden;
+}
+
+header nav ul li {
+    float: left;
+    list-style: none;
+}
+
+header nav ul li {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+header nav ul li:hover{
+    background: black;
+    color: white;
+}
+
+.main{
+    width: 700px;
+    background: white;
+    float: left;
+}
+
+.main .img img{
+    width: 100%;
+    vertical-align: top;
+}
+
+.main .publicacion{
+    padding: 45px;
+}
+
+.main .publicacion article h2 { 
+    margin-bottom: 20px;
+    color: #5D5D5D;
+}
+
+.main .publicacion article p {
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+
+aside{
+    width: 300px;
+    background: #161f26;
+    padding: 20px;
+    color: white;
+    float: left;
+}
+
+float{
+    background: #000;
+}
